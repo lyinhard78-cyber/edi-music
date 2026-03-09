@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aku Milikmu - Dewa 19</title>
+
+<style>.watermark{
+position:fixed;
+bottom:15px;
+right:20px;
+font-size:14px;
+color:white;
+opacity:0.7;
+font-family:Arial;
+animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 5px #fff;
+}
+to{
+text-shadow:0 0 15px #00ffff, 0 0 25px #00ffff;
+}
+}
+
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.player{
+background:#111827;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
+width:320px;
+}
+
+.cover{
+width:250px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+h2{
+margin:5px;
+}
+
+h3{
+margin:5px;
+opacity:0.7;
+font-weight:normal;
+}
+
+audio{
+width:100%;
+margin-top:15px;
+}
+
+</style>
+</head>
+<div class="watermark">
+music web by : edi
+</div>
+<body>
+
+<div class="player">
+
+<img src="artworks-000064501882-3pnzuh-t500x500.jpg" class="cover">
+
+<h2>Aku Milikmu</h2>
+<h3>Dewa 19</h3>
+
+<audio controls>
+<source src="akumilikmu.mp3" type="audio/mpeg">
+Browser tidak mendukung audio
+</audio>
+
+</div>
+
+</body>
+</html>
